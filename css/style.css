@@ -1543,6 +1543,7 @@ h4,
   }
 }
 .info__title {
+  text-align: left;
   line-height: 0.9;
 }
 @media (min-width: 767.98px) {
@@ -1969,6 +1970,7 @@ h4,
   line-height: 125%;
   word-break: break-word;
   overflow-wrap: anywhere;
+  text-align: left;
 }
 @media (min-width: 767.98px) {
   .item-reviews__title {
