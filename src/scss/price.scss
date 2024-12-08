@@ -1,0 +1,227 @@
+//====================================================================================================
+.price {
+  padding-bottom: 50px;
+
+  @media (min-width:$mobile) {
+    padding-bottom: 80px;
+  }
+
+  @media (min-width:$pc) {
+    padding-bottom: 130px;
+  }
+
+  // .price__container
+  &__container {
+    display: grid;
+    gap: 15px;
+    padding: 0 25px;
+
+    @media (min-width:$mobile) {
+      padding: 0 15px;
+      gap: 40px;
+    }
+
+    @media (min-width:$pc) {
+      gap: 60px;
+    }
+  }
+
+  // .price__title
+  &__title {
+    text-align: center;
+  }
+
+  // .price__img
+  &__img {
+    padding-bottom: 63%;
+
+    @media (min-width:$mobile) {
+      padding-bottom: 53%;
+    }
+
+    @media (min-width:$pc) {
+      padding-bottom: 28.5%;
+    }
+  }
+
+}
+
+//====================================================================================================
+
+
+.services {
+
+  // .services__container
+
+  &__container {}
+
+  // .services__title
+
+  &__title {}
+
+  // .services__tabs
+
+  &__tabs {}
+}
+
+//====================================================================================================
+
+
+.tabs-services {
+
+  // .tabs-services__nav
+
+  &__nav {}
+
+  // .tabs-services__title
+
+  &__title {}
+
+  // .tabs-services__content
+
+  &__content {}
+
+  // .tabs-services__body
+
+  &__body {}
+}
+
+//====================================================================================================
+
+
+.price-list {
+  & li:not(:last-child) .item-price-list {
+    margin-bottom: 30px;
+  }
+}
+
+.item-price-list {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  opacity: 0.7;
+
+  @media (min-width:$mobile) {
+    gap: 14px;
+  }
+
+  @media (min-width:$pc) {
+    gap: 30px;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+
+    @media (min-width:$mobile) {
+      margin-bottom: 30px;
+    }
+
+    @media (min-width:$pc) {}
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+
+  // .item-price-list__icon
+  &__icon {
+    flex: 0 0 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #ba7169;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+    color: #fff;
+    font-size: 7px;
+
+    @media (min-width:$mobile) {
+      flex: 0 0 50px;
+      height: 50px;
+      font-size: 19px;
+    }
+  }
+
+  // .item-price-list__title
+  &__title {
+    flex: 1 1 100%;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 167%;
+    color: #665d5d;
+    border-bottom: 1px solid #B28668;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+
+    @media (min-width:$mobile) {
+      font-size: 2.4rem;
+      line-height: 125%;
+    }
+
+    @media (min-width:$pc) {
+      font-size: 4rem;
+    }
+  }
+
+  // .item-price-list__price
+  &__price {
+    white-space: nowrap;
+
+    font-size: 1.2rem;
+    line-height: 167%;
+    color: #665d5d;
+
+    @media (min-width:$mobile) {
+      font-size: 2rem;
+      line-height: 150%;
+    }
+
+    @media (min-width:$pc) {
+      font-size: 4rem;
+      line-height: 125%;
+    }
+
+    &::after {
+      content: ' р';
+    }
+  }
+}
+
+
+
+//====================================================================================================
+
+
+//====================================================================================================
+
+//====================================================================================================
+
+
+//====================================================================================================
+
+
+//====================================================================================================
+
+
+//====================================================================================================
+
+
+//====================================================================================================
+
+
+//====================================================================================================
+
+
+//====================================================================================================
+
+
+//====================================================================================================

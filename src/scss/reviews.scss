@@ -1,0 +1,223 @@
+//====================================================================================================
+.reviews {
+  padding-top: 55px;
+  padding-bottom: 55px;
+
+  // .reviews__container
+  &__container {}
+
+
+  // .reviews__wrapper
+  &__wrapper {
+    padding: 0 10px;
+  }
+
+
+  // .reviews__header
+  &__header {
+    text-align: center;
+    margin-bottom: 15px;
+
+    @media (min-width:$mobile) {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      text-align: left;
+      margin-bottom: 40px;
+    }
+
+    @media (min-width:$pc) {
+      margin-bottom: 90px;
+    }
+  }
+
+  // .reviews__title
+  &__title {
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 125%;
+
+    @media (min-width:$mobile) {
+      font-size: 6rem;
+      line-height: 1;
+    }
+
+    @media (min-width:$pc) {
+      font-size: 15rem;
+      line-height: 67%;
+      letter-spacing: 0.03em;
+    }
+  }
+
+  // .reviews__text
+  &__text {
+    @media (min-width:$pc) {
+      max-width: 615px;
+    }
+  }
+
+  // .reviews__body
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 10px;
+
+    @media (min-width:$mobile) {
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 30px;
+    }
+  }
+
+  // .reviews__item
+  &__item {
+
+    &:nth-child(12n+1),
+    &:nth-child(12n+5),
+    &:nth-child(12n+9),
+    &:nth-child(12n+11) {
+      .item-reviews__img {
+        padding-bottom: 117%;
+      }
+    }
+
+    @media (min-width:$mobile) {
+      flex: 0 0 calc(25% - 25px);
+
+      &:nth-child(12n+1),
+      &:nth-child(12n+5),
+      &:nth-child(12n+9),
+      &:nth-child(12n+11) {
+        flex: 0 0 calc(50% - 16px);
+      }
+    }
+
+  }
+}
+
+.item-reviews {
+
+  // .item-reviews__img
+  &__img {
+    padding-bottom: 96%;
+
+    @media (min-width:$mobile) {
+      padding-bottom: 150%;
+    }
+  }
+
+  // .item-reviews__body
+
+  &__body {
+    padding-top: 15px;
+    display: grid;
+    gap: 10px;
+
+    @media (min-width:$mobile) {
+      gap: 15px;
+    }
+
+    @media (min-width:$pc) {
+      padding-top: 30px;
+      gap: 30px;
+    }
+  }
+
+  // .item-reviews__grade
+
+  &__grade {
+    display: flex;
+    gap: 12px;
+    font-size: 20px;
+
+    @media (min-width:$mobile) {
+      gap: 15;
+    }
+
+    i {
+      color: #c2b0b0;
+
+      &.active {
+        color: #665d5d;
+      }
+    }
+
+  }
+
+  // .item-reviews__title
+  &__title {
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 125%;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+
+    @media (min-width:$mobile) {
+      font-weight: 400;
+      font-size: 4rem;
+      line-height: 125%;
+    }
+
+    @media (min-width:$pc) {
+      font-weight: 400;
+      font-size: 7rem;
+      line-height: 86%;
+      letter-spacing: 0.02em;
+    }
+  }
+
+  // .item-reviews__text
+
+  &__text {}
+}
+
+//====================================================================================================
+
+.reviews-page {
+  padding-bottom: 50px;
+
+  // .reviews-page__container
+  &__container {}
+
+  // .reviews-page__title
+  &__title {
+    margin-bottom: 30px;
+  }
+}
+
+//====================================================================================================
+
+
+//====================================================================================================
+
+
+//====================================================================================================
+
+
+//====================================================================================================
+
+//====================================================================================================
+
+
+//====================================================================================================
+
+
+//====================================================================================================
+
+
+//====================================================================================================
+
+
+//====================================================================================================
+
+
+//====================================================================================================
+
+
+//====================================================================================================
+
+
+//====================================================================================================
