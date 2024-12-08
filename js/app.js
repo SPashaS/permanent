@@ -4418,7 +4418,6 @@
         document.querySelector(".portfolio__slider") &&
           new ce(".portfolio__slider", {
             modules: [ue],
-            observer: !0,
             slidesPerView: "auto",
             spaceBetween: 30,
             centeredSlides: !0,
@@ -4480,9 +4479,6 @@
               0: { slidesPerView: "auto", spaceBetween: 15 },
               320: {},
               500: { slidesPerView: "auto", spaceBetween: 30 },
-              768: {},
-              992: {},
-              1268: {},
             },
             on: {},
           }),
@@ -4523,11 +4519,7 @@
           },
           breakpoints: {
             0: { slidesPerView: "auto", spaceBetween: 15 },
-            320: {},
-            500: { spaceBetween: 30 },
-            768: {},
-            992: {},
-            1268: {},
+            500: { slidesPerView: "auto", spaceBetween: 30 },
           },
           on: {},
         });
